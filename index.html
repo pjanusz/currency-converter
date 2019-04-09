@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style.css">
+	<title>Currency Converter</title>
+</head>
+
+<body>
+	<div class="cc-container">
+		<h1 class="cc-header">Currency Converter</h1>
+		<div class="cc-inputs-container">
+			<input id="cc-main-input" class="cc-input" type="number" step="0.01" min="0" value="0" placeholder="i have">
+			<select id="cc-select-from" class="cc-select">
+			</select>
+			<img class="cc-arrow" src="/img/redarrow.png">
+			<p id="cc-result" class="cc-output"></p>
+			<select id="cc-select-to" class="cc-select">
+			</select>
+		</div>
+		<div class="cc-info">
+			<div class="cc-currency-info">
+				<p id="cc-one" class="cc-info-text"></p>
+				<p id="cc-base" class="cc-info-text"></p>
+			</div>
+			<p id="cc-loaded" class="cc-info-text"></p>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
